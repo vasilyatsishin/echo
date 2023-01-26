@@ -1,0 +1,33 @@
+.wrapper {
+    background-image: url("../../img/bgHeader.png");
+    height: 740px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding-top: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 115px;
+    line-height: 120px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.join {
+    margin-top: 86px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #0B0B0B;
+    text-decoration: none;
+}

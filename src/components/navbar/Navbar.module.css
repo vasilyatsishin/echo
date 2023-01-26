@@ -1,0 +1,85 @@
+.firstWrapper {
+    background: #0B0B0B;
+    height: 61px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    width: 96.09375%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoWrapper {
+    width: 37.65625%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 141px
+}
+
+.navlink {
+    margin-right: 25px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13px;
+    letter-spacing: 1.04px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.navlinkLogin {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13px;
+    letter-spacing: 1.04px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.navlink:nth-child(4) {
+    margin: 0;
+}
+
+.slash {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13px;
+    letter-spacing: 1.04px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+.socialMediaWrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 29.53125%;
+}
+
+.icon {
+    margin-right: 16px;
+}
+
+.icon:nth-child(3) {
+    margin: 0;
+}
+
+.navlink:hover,
+.navlinkLogin:hover {
+    color: #FFFF02;
+    transition: .8s color ease-in-out;
+}

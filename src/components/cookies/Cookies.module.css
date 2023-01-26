@@ -1,0 +1,31 @@
+.firstWrapper {
+    background-color: #282828;
+    height: 67px;
+}
+
+.wrapper {
+    width: 96.328125%;
+    margin-left: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 16px;
+}
+
+.paragraph {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.button {
+    background: #FFFF02;
+    border-radius: 9999px;
+    width: 105px;
+    height: 35px;
+    border: 0;
+    cursor: pointer;
+}
